@@ -5,6 +5,12 @@
     --primario:#FFC107;
     --secundario:#0097A7;
     --gris:#757575;
+    --facebook:#3b5999;
+    --instagram:#e4405f;
+    --twitter:#55acee;
+    --pintarest:#bd081c;
+    --linkedin:#0077B5;
+
     }
     
     html {
@@ -114,11 +120,28 @@ h1,h2,h3{
      }
 .ubicacion{
 display: flex;
+}
 
+.social{
+display: flex;
 
-
-
-
+align-items: center;
+justify-content: center;
 
 }
+.social ul li{
+display: inline-block;
+margin: 0 5px;
+width: 50px;
+text-align: center;
+}
+.social ul li a{
+display: block;
+padding: 0 10px;
+background-color: #333;
+color:#ffffff;
+line-height: 50px;
+box-shadow: 18px;
+}
+
 
