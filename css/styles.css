@@ -58,6 +58,28 @@ h1,h2,h3{
       max-width: 120rem;
         margin: 0 auto;
     }
+
+    .boton{
+        background-color: var(--secundario);
+        color: var(--blanco);
+        padding: 1rem 3rem 1rem 3rem;    /* hago ese cuadro azul  */
+        margin-top: 1rem;
+        font-size: 2rem;
+        text-decoration: none;/* quito la linea del enlace */
+        font-weight: bold;  /* hacer resaltar mas el texto */
+        border-radius: .5rem; /* para redondear las esquinas del boton */
+        width: 90%;   /* agrandar el tamaño del boton */
+        text-align: center;
+    }
+
+    @media(min-width: 768px){
+        .boton{
+            width: auto;
+
+        }
+    }
+
+
     .nav-b-g{
         background-color: var(--secundario);
     width: 100%;
@@ -98,6 +120,8 @@ h1,h2,h3{
      background-size: cover;
      height: 450px;
      position: relative;
+    
+    
     }
 
      .contedio-hero{
@@ -120,28 +144,6 @@ h1,h2,h3{
      }
 .ubicacion{
 display: flex;
-}
-
-.social{
-display: flex;
-
-align-items: center;
-justify-content: center;
-
-}
-.social ul li{
-display: inline-block;
-margin: 0 5px;
-width: 50px;
-text-align: center;
-}
-.social ul li a{
-display: block;
-padding: 0 10px;
-background-color: #333;
-color:#ffffff;
-line-height: 50px;
-box-shadow: 18px;
 }
 
 
